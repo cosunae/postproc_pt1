@@ -11,7 +11,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     install_requires=["cfgrib", "pint"],
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     extras_require={
         "xarray": ["xarray>=0.15"],
         "tests": ['unittest'],
