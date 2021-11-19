@@ -3,6 +3,8 @@ import cfgrib
 import xarray as xr
 from pint import UnitRegistry
 
+xr.set_options(keep_attrs=True)
+
 
 class DataArray(xr.DataArray):
     __slots__ = []
